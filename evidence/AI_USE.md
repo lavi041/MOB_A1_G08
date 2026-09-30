@@ -1,13 +1,25 @@
-# AI use disclosure
+# AI Use Disclosure
 
-> The group MUST review and correct this file so it is true for your group.
+## AI tools used
 
-| Field | Detail |
-|---|---|
-| Tool | Claude (Anthropic) |
-| Purpose | Generated the initial project scaffold (screens, components, navigation, validation) from the assignment brief |
-| Important prompts | "Build a project that matches all details of the SWE 3409 Assignment 1 brief" |
-| Files affected | All files under `src/`, `App.tsx`, `package.json`, `app.json`, `README.md` |
-| How verified | `npm run typecheck` passed; validation regexes checked with sample inputs. **Group must add: on-device testing in Expo Go and who tested what.** |
+| Tool | Purpose | Important prompts / use | Files affected | How verified |
+|---|---|---|---|---|
+| Claude (Anthropic) | Used to help generate the initial project scaffold, including screens, components, navigation, and validation based on the assignment brief. | “Build a project that matches all details of the SWE 3409 Assignment 1 brief.” | Project source files, including `src/`, `App.tsx`, `package.json`, `app.json`, and `README.md` | The generated code was reviewed and corrected by the group. The project was tested on-device using Expo Go. |
+| ChatGPT (OpenAI) | Used to help review and correct code, troubleshoot errors, explain implementation issues, and guide project testing and submission preparation. | Prompts were used to review code, fix errors, explain React Native functionality, and verify assignment requirements. | Code files and project documentation where corrections or guidance were applied | Suggestions were reviewed by the group, implemented where appropriate, and tested in Expo Go on a mobile device. |
 
-Add every other tool (ChatGPT, Copilot, etc.) any member used, with the same fields.
+## Human verification
+
+The group reviewed the AI-assisted work and tested the application on a mobile device using Expo Go.
+
+The following functionality was tested:
+
+1. App launch
+2. Market/catalog display
+3. Invalid form validation
+4. Valid form submission
+5. Navigation
+6. Camera/gallery permission handling
+7. Image capture/selection, preview, replacement and removal
+8. Responsive layout on a mobile screen
+
+The group members remain responsible for the final code, testing, documentation, and submission.

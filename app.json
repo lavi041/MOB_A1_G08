@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Musanze Safe Markets",
+    "slug": "musanze-safe-markets",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow the app to use the camera to capture stall evidence photos.",
+          "photosPermission": "Allow the app to pick a stall evidence photo from your gallery."
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png"
+  }
+}
